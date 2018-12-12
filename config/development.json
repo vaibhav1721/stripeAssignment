@@ -1,0 +1,17 @@
+{
+  "PORT" : 5000,
+  "databaseSettings" :{
+    "host"    : "localhost",
+    "user"    : "root",
+    "password" : "qwerty",
+    "database" : "assignment",
+    "mongo_db_connection":"mongodb://localhost:27017/project"
+  },
+  "mongoCollections" :{
+    "admin" : "admin"
+  },
+  "stripeKey" : {
+    "privateKey" : "private_key",
+    "secretKey" : "secret_key"
+  }
+}
